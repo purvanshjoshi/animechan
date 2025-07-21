@@ -18,9 +18,6 @@ export default function Footer() {
 						<li>
 							<Link href="/support">Support Animechan</Link>
 						</li>
-						<li>
-							<Link href="https://uptime.rocktim.dev/status/animechan" target="_blank">Status Page</Link>
-						</li>
 						{/* <li> */}
 						{/* 	<Link href="/docs">Blog</Link> */}
 						{/* </li> */}
@@ -28,7 +25,7 @@ export default function Footer() {
 					<ul className="space-y-1">
 						<li className="font-medium mb-2">Contact Us:</li>
 						<li>
-							<Link href="mailto:support@animechan.io">support@animechan.io</Link>
+							<Link href="mailto:hey@rocktim.dev">hey@rocktim.dev</Link>
 						</li>
 					</ul>
 					<ul className="space-y-1">
@@ -52,9 +49,19 @@ export default function Footer() {
 				</div>
 			</Section>
 
-			<Text as="p" mt="5">
-				Created with <span className="text-red-500">❤ </span> by{" "}
-				<a href="https://rocktim.dev/">@rocktimsaikia</a> © {new Date().getFullYear()}
+			<div className="flex justify-center mt-5 mb-3">
+				<Link href="https://uptime.rocktim.dev/status/animechan" target="_blank">
+					<img src="https://uptime.rocktim.dev/api/badge/1/status" alt="Animechan Status" />
+				</Link>
+			</div>
+
+			<Text as="p">
+				© {new Date().getFullYear()} Animechan. All rights reserved.
+			</Text>
+			
+			<Text as="p" mt="2">
+				Built with <span className="text-red-500">♥</span> by{" "}
+				<a href="https://rocktim.dev/">@rocktimsaikia</a>
 			</Text>
 		</footer>
 	);
