@@ -19,10 +19,7 @@ export default function Footer() {
 							<Link href="/support">Support Animechan</Link>
 						</li>
 						<li>
-							<Link href="/privacy-policy">Privacy Policy</Link>
-						</li>
-						<li>
-							<Link href="/terms">Terms and Conditions</Link>
+							<Link href="https://uptime.rocktim.dev/status/animechan" target="_blank">Status Page</Link>
 						</li>
 						{/* <li> */}
 						{/* 	<Link href="/docs">Blog</Link> */}
